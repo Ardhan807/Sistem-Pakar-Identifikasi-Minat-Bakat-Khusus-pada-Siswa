@@ -22,7 +22,7 @@ buka terminal
 
 ## 🧩 Struktur Proyek
 ```
-📦 sistem-pakar
+📦 Sistem-Pakar-Identifikasi-Minat-Bakat-Khusus-pada-Siswa
 ├── inference_engine.py    # Mesin inferensi (logika Certainty Factor)
 ├── user_interface.py      # Aplikasi Flask (antarmuka web), desain tampilan menggunakan Html dan css
 ├── knowleadge_base.json   # Basis pengetahuan (ciri, aturan, kesimpulan)
