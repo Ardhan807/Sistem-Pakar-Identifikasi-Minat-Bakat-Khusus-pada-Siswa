@@ -22,10 +22,10 @@ HTML & CSS — membangun antarmuka pengguna.
 
 ## 🧩 Struktur Proyek
 📦 sistem-pakar
-├── inference_engine.py      # Mesin inferensi (logika Certainty Factor)
-├── knowleadge_base.json     # Basis pengetahuan (ciri, aturan, kesimpulan)
-├── user_interface.py        # Aplikasi Flask (antarmuka web), desain tampilan menggunakan Html dan css
-└── README.md                # Cara menjalankan proyek
+- inference_engine.py      -> Mesin inferensi (logika Certainty Factor)
+- knowleadge_base.json     -> Basis pengetahuan (ciri, aturan, kesimpulan)
+- user_interface.py        -> Aplikasi Flask (antarmuka web), desain tampilan menggunakan Html dan css
+- README.md                -> Cara menjalankan proyek
 
 ## 📚 Referensi
 [Artikel: Sistem Pakar Menggunakan Metode Certainty Factor dalam
