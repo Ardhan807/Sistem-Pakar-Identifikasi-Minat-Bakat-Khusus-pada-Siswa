@@ -7,7 +7,7 @@ Proyek ini merupakan implementasi ulang berbasis Python dan Flask dari sistem pa
 Sistem ini dirancang untuk mengidentifikasi pengembangan minat dan bakat khusus pada siswa menggunakan metode Certainty Factor (CF). Melalui antarmuka web sederhana berbasis HTML dan CSS, pengguna (siswa) dapat menjawab sejumlah pertanyaan, dan sistem akan menghitung tingkat kepastian (CF) terhadap kategori minat dan bakat tertentu.
 
 ## 🚀 Cara Menjalankan Proyek
-- buka terminal
+buka terminal
 - arahkan ke folder -> contoh masukkan ke dalam terminal "cd C:\Users\Downloads\Sistem_Pakar"
 - install flask -> masukkan ke dalam terminal "pip install flask"
 - jalankan user interface -> masukkan ke dalam terminal "python user_interface.py"
@@ -21,11 +21,13 @@ Sistem ini dirancang untuk mengidentifikasi pengembangan minat dan bakat khusus 
 - HTML & CSS   -> membangun antarmuka pengguna.
 
 ## 🧩 Struktur Proyek
+```
 📦 sistem-pakar
-- inference_engine.py      -> Mesin inferensi (logika Certainty Factor)
-- knowleadge_base.json     -> Basis pengetahuan (ciri, aturan, kesimpulan)
-- user_interface.py        -> Aplikasi Flask (antarmuka web), desain tampilan menggunakan Html dan css
-- README.md                -> Cara menjalankan proyek
+├── inference_engine.py    # Mesin inferensi (logika Certainty Factor)
+├── user_interface.py      # Aplikasi Flask (antarmuka web), desain tampilan menggunakan Html dan css
+├── knowleadge_base.json   # Basis pengetahuan (ciri, aturan, kesimpulan)
+└── README.md              # Cara menjalankan proyek
+```
 
 ## 📚 Referensi
 [Artikel: Sistem Pakar Menggunakan Metode Certainty Factor dalam
