@@ -10,5 +10,5 @@ Sistem Pakar Menggunakan Metode Certainty Factor dalam Identifikasi Pengembangan
 # referensi
 ## 📚 Referensi
 [Artikel: Sistem Pakar Menggunakan Metode Certainty Factor dalam
-Identifikasi Pengembangan Minat dan Bakat Khusus pada Siswa]([https://link.springer.com/article/10.1023/A:1010933404324](https://jsisfotek.org/index.php/JSisfotek))
+Identifikasi Pengembangan Minat dan Bakat Khusus pada Siswa]([https://link.springer.com/article/10.1023/A:1010933404324](https://jsisfotek.org/index.php/JSisfotek)])
 
