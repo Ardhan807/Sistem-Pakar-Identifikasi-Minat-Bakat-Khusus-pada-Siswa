@@ -8,4 +8,7 @@ Sistem Pakar Menggunakan Metode Certainty Factor dalam Identifikasi Pengembangan
 - buka browser dan kunjungi atau langsung ctrl + click pada terminal -> http://127.0.0.1:5000
 - untuk kembali ke cd C:\Users\angga\Downloads\Sistem_Pakar tekan ctrl + c
 # referensi
-Sistem_Pakar_Menggunakan_Metode_Certainty_Factor_d.pdf
+## 📚 Referensi
+[Artikel: Sistem Pakar Menggunakan Metode Certainty Factor dalam
+Identifikasi Pengembangan Minat dan Bakat Khusus pada Siswa]([https://link.springer.com/article/10.1023/A:1010933404324](https://jsisfotek.org/index.php/JSisfotek))
+
