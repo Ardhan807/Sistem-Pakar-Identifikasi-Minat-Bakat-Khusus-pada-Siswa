@@ -25,10 +25,6 @@ buka terminal
   ```
   http://127.0.0.1:5000
   ```
-- untuk kembali ke cd C:\Users\Downloads\Sistem-Pakar-Identifikasi-Minat-Bakat-Khusus-pada-Siswa
-  ```
-  tekan ctrl + c
-  ```
 
 ## ⚙️ Teknologi yang Digunakan
 - Python 3.11  -> menarik kesimpulan (inference) berdasarkan pengetahuan (rules/fakta) yang tersimpan di Knowledge Base dan antarmuka pengguna berbasis Flask
