@@ -1,0 +1,55 @@
+{
+  "conditions": {
+    "C01": { "text": "Mempunyai dorongan ingin tahu besar", "cf_yes": 0.8 },
+    "C02": { "text": "Mudah memahami irama lagu", "cf_yes": 0.6 },
+    "C03": { "text": "Suka berada di antara banyak orang", "cf_yes": 0.8 },
+    "C04": { "text": "Suka membaca buku", "cf_yes": 0.6 },
+    "C05": { "text": "Suka berpikir positif", "cf_yes": 0.7 },
+    "C06": { "text": "Suka menganalisa", "cf_yes": 0.8 },
+    "C07": { "text": "Suka menghitung angka", "cf_yes": 0.6 },
+    "C08": { "text": "Suka memberikan banyak gagasan dan usul terhadap suatu masalah", "cf_yes": 0.6 },
+    "C09": { "text": "Suka menari", "cf_yes": 0.8 },
+    "C10": { "text": "Cermat dalam pengamatan", "cf_yes": 0.5 },
+    "C11": { "text": "Suka berpikir kritis", "cf_yes": 0.6 },
+    "C12": { "text": "Suka menirukan gerak", "cf_yes": 0.8 },
+    "C13": { "text": "Suka mencoba hal-hal yang baru", "cf_yes": 0.6 },
+    "C14": { "text": "Aktif dalam kegiatan fisik", "cf_yes": 0.8 },
+    "C15": { "text": "Suka belajar atau bekerja dengan baik seorang diri", "cf_yes": 0.6 },
+    "C16": { "text": "Suka melakukan penelitian", "cf_yes": 0.6 }
+  },
+
+  "rules": [
+    { "id": "R1", "if": ["C01","C04","C05","C06","C07","C08","C10","C11","C15","C16"], "then": "B01", "cf": 1.0 },
+    { "id": "R2", "if": ["C01","C04","C05","C06","C07"], "then": "B01", "cf": 0.7 },
+    { "id": "R3", "if": ["C01","C05","C06","C08","C10","C11","C15"], "then": "B01", "cf": 0.9 },
+    { "id": "R4", "if": ["C01","C04","C07","C10","C11","C15","C16"], "then": "B01", "cf": 0.6 },
+    { "id": "R5", "if": ["C01","C05","C08","C10"], "then": "B01", "cf": 0.5 },
+    { "id": "R6", "if": ["C01","C05","C08","C10","C11","C16"], "then": "B01", "cf": 0.8 },
+    { "id": "R7", "if": ["C01","C04","C05","C06","C07","C10","C11","C13","C16"], "then": "B02", "cf": 1.0 },
+    { "id": "R8", "if": ["C01","C04","C05","C06","C07","C13"], "then": "B02", "cf": 0.8 },
+    { "id": "R9", "if": ["C01","C10","C11","C13","C16"], "then": "B02", "cf": 0.5 },
+    { "id": "R10", "if": ["C01","C06","C07","C10","C11","C13"], "then": "B02", "cf": 0.7 },
+    { "id": "R11", "if": ["C01","C02","C03","C05","C06","C09","C11","C12","C15"], "then": "B03", "cf": 1.0 },
+    { "id": "R12", "if": ["C01","C02","C03","C05","C06","C09"], "then": "B03", "cf": 0.7 },
+    { "id": "R13", "if": ["C01","C03","C06","C09","C11","C12","C15"], "then": "B03", "cf": 0.8 },
+    { "id": "R14", "if": ["C01","C02","C03","C11","C15"], "then": "B03", "cf": 0.5 },
+    { "id": "R15", "if": ["C03","C05","C09","C12","C14"], "then": "B04", "cf": 1.0 },
+    { "id": "R16", "if": ["C03","C05","C09","C12"], "then": "B04", "cf": 0.8 },
+    { "id": "R17", "if": ["C03","C05","C09","C14"], "then": "B04", "cf": 0.7 },
+    { "id": "R18", "if": ["C05","C09","C12","C14"], "then": "B04", "cf": 0.6 },
+    { "id": "R19", "if": ["C03","C09","C12","C14"], "then": "B04", "cf": 0.9 },
+    { "id": "R20", "if": ["C01","C03","C04","C05","C06","C07","C08","C11","C15","C16"], "then": "B05", "cf": 1.0 },
+    { "id": "R21", "if": ["C01","C03","C05","C06","C11","C15","C16"], "then": "B05", "cf": 0.7 },
+    { "id": "R22", "if": ["C01","C04","C05","C06","C07","C08","C11","C16"], "then": "B05", "cf": 0.8 },
+    { "id": "R23", "if": ["C01","C03","C06"], "then": "B05", "cf": 0.5 },
+    { "id": "R24", "if": ["C01","C03","C06","C15","C16"], "then": "B05", "cf": 0.8 }
+  ],
+
+  "bakat": {
+    "B01": "Bakat Akademik Khusus",
+    "B02": "Bakat Kreatif dan Produktif",
+    "B03": "Bakat Seni",
+    "B04": "Bakat Kinestetik / Psikomotorik",
+    "B05": "Bakat Sosial"
+  }
+}
