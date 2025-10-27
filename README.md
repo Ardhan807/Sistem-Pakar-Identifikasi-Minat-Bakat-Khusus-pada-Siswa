@@ -8,11 +8,27 @@ Sistem ini dirancang untuk mengidentifikasi pengembangan minat dan bakat khusus 
 
 ## 🚀 Cara Menjalankan Proyek
 buka terminal
-- arahkan ke folder -> contoh masukkan ke dalam terminal "cd C:\Users\Downloads\Sistem_Pakar"
-- install flask -> masukkan ke dalam terminal "pip install flask"
-- jalankan user interface -> masukkan ke dalam terminal "python user_interface.py"
-- buka browser dan kunjungi atau langsung ctrl + click pada terminal -> http://127.0.0.1:5000
-- untuk kembali ke cd C:\Users\angga\Downloads\Sistem_Pakar tekan ctrl + c
+- arahkan ke folder contoh masukkan ke dalam terminal
+  ```
+  cd C:\Users\Downloads\Sistem-Pakar-Identifikasi-Minat-Bakat-Khusus-pada-Siswa
+  ```
+- install flask masukkan ke dalam terminal
+  ```
+  pip install flask
+  ```
+- jalankan user interface masukkan ke dalam terminal
+  ```
+  python user_interface.py
+  ```
+- buka browser
+  kunjungi atau langsung ctrl + click pada terminal
+  ```
+  http://127.0.0.1:5000
+  ```
+- untuk kembali ke cd C:\Users\Downloads\Sistem-Pakar-Identifikasi-Minat-Bakat-Khusus-pada-Siswa
+  ```
+  tekan ctrl + c
+  ```
 
 ## ⚙️ Teknologi yang Digunakan
 - Python 3.11  -> menarik kesimpulan (inference) berdasarkan pengetahuan (rules/fakta) yang tersimpan di Knowledge Base dan antarmuka pengguna berbasis Flask
