@@ -7,3 +7,4 @@ Sistem Pakar Menggunakan Metode Certainty Factor dalam Identifikasi Pengembangan
 - jalankan user interface -> masukkan ke dalam terminal "python user_interface.py"
 - buka browser dan kunjungi atau langsung ctrl + click pada terminal -> http://127.0.0.1:5000
 - untuk kembali ke cd C:\Users\angga\Downloads\Sistem_Pakar tekan ctrl + c
+# referensi
