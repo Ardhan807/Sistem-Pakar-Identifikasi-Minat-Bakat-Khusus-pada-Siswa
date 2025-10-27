@@ -15,10 +15,10 @@ Sistem ini dirancang untuk mengidentifikasi pengembangan minat dan bakat khusus 
 - untuk kembali ke cd C:\Users\angga\Downloads\Sistem_Pakar tekan ctrl + c
 
 ## ⚙️ Teknologi yang Digunakan
-Python 3.11 - menarik kesimpulan (inference) berdasarkan pengetahuan (rules/fakta) yang tersimpan di Knowledge Base dan antarmuka pengguna berbasis Flask
-Flask — web framework untuk menjalankan server dan routing.
-JSON — menyimpan basis pengetahuan (knowledge base) berupa kondisi, aturan, dan nilai CF.
-HTML & CSS — membangun antarmuka pengguna.
+- Python 3.11  -> menarik kesimpulan (inference) berdasarkan pengetahuan (rules/fakta) yang tersimpan di Knowledge Base dan antarmuka pengguna berbasis Flask
+- Flask        -> web framework untuk menjalankan server dan routing.
+- JSON         -> menyimpan basis pengetahuan (knowledge base) berupa kondisi, aturan, dan nilai CF.
+- HTML & CSS   -> membangun antarmuka pengguna.
 
 ## 🧩 Struktur Proyek
 📦 sistem-pakar
