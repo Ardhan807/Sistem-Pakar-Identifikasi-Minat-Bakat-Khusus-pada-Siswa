@@ -1,10 +1,11 @@
-# Sistem-Pakar-Identifikasi-Minat-Bakat-Khusus-pada-Siswa
+# Prediksi Biaya Tagih Fasilitas Kesehatan (Penyakit Tuberkulosis)
 ## 📘 Deskripsi Proyek
-Proyek ini merupakan implementasi ulang berbasis Python dan Flask dari sistem pakar yang dijelaskan pada jurnal berjudul
+Proyek ini menggunakan **Random Forest Regression** untuk memprediksi **biaya tagih oleh fasilitas kesehatan (provider)** pada pasien dengan penyakit **Tuberkulosis**, berdasarkan data **BPJS Kesehatan Tahun 2022**.  
 
-"Sistem Pakar Menggunakan Metode Certainty Factor dalam Identifikasi Pengembangan Minat dan Bakat Khusus pada Siswa" 
-
-Sistem ini dirancang untuk mengidentifikasi pengembangan minat dan bakat khusus pada siswa menggunakan metode Certainty Factor (CF). Melalui antarmuka web sederhana berbasis HTML dan CSS, pengguna (siswa) dapat menjawab sejumlah pertanyaan, dan sistem akan menghitung tingkat kepastian (CF) terhadap kategori minat dan bakat tertentu.
+Model ini membantu fasilitas kesehatan dalam:
+- Analisis biaya layanan pasien Tuberkulosis  
+- Perencanaan anggaran  
+- Memahami pola klaim biaya pasien  
 
 ## 🚀 Cara Menjalankan Proyek
 buka terminal
@@ -27,21 +28,24 @@ buka terminal
   ```
 
 ## ⚙️ Teknologi yang Digunakan
-- Python 3.11  -> menarik kesimpulan (inference) berdasarkan pengetahuan (rules/fakta) yang tersimpan di Knowledge Base dan antarmuka pengguna berbasis Flask
-- Flask        -> web framework untuk menjalankan server dan routing.
-- JSON         -> menyimpan basis pengetahuan (knowledge base) berupa kondisi, aturan, dan nilai CF.
-- HTML & CSS   -> membangun antarmuka pengguna.
+- Python 3.11 → preprocessing data, training model, dan prediksi
+- Scikit-Learn → implementasi Random Forest Regression dan evaluasi model
+- Pandas & NumPy → manipulasi dan analisis data
+- Matplotlib / Seaborn → visualisasi data dan hasil prediksi
 
 ## 🧩 Struktur Proyek
 ```
-📦 Sistem-Pakar-Identifikasi-Minat-Bakat-Khusus-pada-Siswa
-├── inference_engine.py    # Mesin inferensi (logika Certainty Factor)
-├── user_interface.py      # Aplikasi Flask (antarmuka web), desain tampilan menggunakan Html dan css
-├── knowleadge_base.json   # Basis pengetahuan (ciri, aturan, kesimpulan)
-└── README.md              # Cara menjalankan proyek
+📦 Prediksi-Biaya-Tagih-TB
+├── run_model.py           # Script utama untuk preprocessing, training, dan prediksi
+├── data/
+│   └── bpjs_tb_2022.csv  # Data klaim pasien Tuberkulosis
+├── model/
+│   └── random_forest.pkl  # Model Random Forest yang telah dilatih (opsional)
+├── requirements.txt       # Library yang dibutuhkan
+└── README.md              # Dokumentasi proyek
 ```
 
-## 📚 Referensi
-[Artikel: Sistem Pakar Menggunakan Metode Certainty Factor dalam
-Identifikasi Pengembangan Minat dan Bakat Khusus pada Siswa](https://www.jsisfotek.org/index.php/JSisfotek/article/view/43)
+## 📈 Hasil
+- Model mampu memprediksi biaya tagih dengan akurasi tinggi menggunakan Random Forest.
+- Dapat membantu analisis biaya dan perencanaan anggaran di fasilitas kesehatan.
 
